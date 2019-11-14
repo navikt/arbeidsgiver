@@ -2,7 +2,7 @@
 title: Produktområde Arbeidgiver
 ---
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript" src="/assets/js/charts.js"></script>
+<script type="text/javascript" src="/arbeidsgiver/assets/js/charts.js"></script>
 # Hvem jobber i området
 
 

@@ -2,3 +2,4 @@ name: Produktområde Arbeidsgiver
 title: Produktområde Arbeidsgiver
 description: A short description of your site's purpose
 theme: jekyll-theme-slate
+baseurl: /arbeidsgiver
