@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "cd docs && bundle exec jekyll serve"
+    "serve": "cd docs && bundle exec jekyll serve",
+    "update": "node ./update-badges.js && node ./update-repos.js"
   },
   "author": "",
   "license": "ISC",

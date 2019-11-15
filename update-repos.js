@@ -19,6 +19,7 @@ const run = async (org, teamSlug) => {
         lines.push('* [' + repo.name + '](' + html_url + ') - ' + language);
       }
     });
+    lines.sort()
     fs.writeFileSync('./docs/_includes/generated-repos.md', lines.join(os.EOL));
   } catch (e) {
     console.error(e);

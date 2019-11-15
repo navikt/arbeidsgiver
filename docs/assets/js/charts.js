@@ -46,12 +46,12 @@ function createPieChart(elementId, title, rows) {
     title: title,
     backgroundColor: 'transparent',
     slices: {
-      0: {color: '#C6C2BF'},
-      1: {color: '#78706A'},
-      2: {color: '#59514B'},
-      3: {color: '#3E3832'},
-      4: {color: '#B7B1A9'},
-      5: {color: '#E9E7E7'},
+      0: {color: '#66CBEC'},
+      1: {color: '#C2EAF7'},
+      2: {color: '#85D5F0'},
+      3: {color: '#5EAEC7'},
+      4: {color: '#A3E0F4'},
+      5: {color: '#E0F5FB'},
     },
   };
   const element = document.getElementById(elementId);
