@@ -9,7 +9,7 @@ over i en moderne smidig organisasjon. Innefor tjenester til arbeidsgivere har v
 å bygge nye tjenester rundt prosessene der det ikke eksisterer noe i dag. Selvbetjening både for 
 kandidater og arbeidsgivere gir mange nye muligheter.
 
-{% include vimeoPlayer.html id=page.vimeoId %}
+{% include vimeo-player.html id=page.vimeoId %}
 
 ## Team og organisering
 Området er akkurat nå fordelt på fire autonome produktteam som har ansvaret for sine deler av flatene
