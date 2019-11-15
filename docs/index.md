@@ -3,9 +3,7 @@ title: Område Arbeidgiver i NAV
 vimeoId: 373391229
 ---
 {% include header-scripts.html %}
-
-# Med hjerte for inkludering, kode og kvalitet
-I NAV er vi for tiden opptatt av å bygge [det som betyr noe]. Moderniseringen av velferdsstaten går
+I NAV er vi for tiden fokusert på å bygge [det som betyr noe]. Moderniseringen av velferdsstaten går
 i en rivende fart. Vi flytter stadig vekk store deler av tjenestene våre ut av legacy og 
 over i en moderne smidig organisasjon. Innefor tjenester til arbeidsgivere har vi mange muligheter på
 å bygge nye tjenester rundt prosessene der det ikke eksisterer noe i dag. Selvbetjening både for 
@@ -17,13 +15,15 @@ kandidater og arbeidsgivere gir mange nye muligheter.
 Området er akkurat nå fordelt på fire autonome produktteam som har ansvaret for sine deler av flatene
 mot arbeidsgiver.
 
+
 * Inkluderende Arbeidsliv
 * Rekruttering av personer med nedsatt funksjonsevne
 * Innloggede sider for Arbeidsgivere
 * Tiltaksgjennomføring
 
 Organisasjonen er ikke spesielt gammel. Arbeidet ble startet på i august 2018 som et tradisjonelt prosjekt.
-Men vil gå inn som en permanent del av strukturen i NAV fra 2020.
+Men vil gå inn som en permanent del av strukturen i NAV fra 2020. Og blir en viktig del av hvordan 
+[NAV løser IT-flokene] i fremtiden.
 
 ### Hvem jobber i teamene?
 Teamene har en tverrfaglig sammensetning med av domeneeksperter, designere, utviklere og produkteiere.
@@ -39,7 +39,7 @@ Vi har en blanding av innleide konsulenter spesielt innenfor utvikling og NAV-an
 våre er 6 in-house, men det blir stadig vekk flere. NAV har ett ønske om å ta eierskap i egen utvikling.
 
 ### Kontorlokaler
-Vi er plassert i de gamle lokalene til Opera i Waldemar Thranes gate 98.
+Vi er plassert i de gamle lokalene til Opera Software i Waldemar Thranes gate 98.
 Her disponerer vi ca. 120 kvm og sitter godt skjermet i en egen fløy. Vi har en mix
 av åpne landskap og stillerom. I August 2020 flytter vi sammen med resten av Direktoratet 
 til nye lokaler på Fyrstikkalléen 1 på Helsfyr, noe som blir bra.
@@ -69,6 +69,10 @@ frihet til å velge det som er best for å få løst oppgaven. Det er likevel vi
 ikke glir for langt fra hverandre, derfor er det noen føringer på hovedtrekk av teknologi. Vi har også
 ting som [NAVs designsystem] som skal hjelpe oss til å ikke sprike for mye mellom teamene.
 
+For datalagring har vi [Postgresql] som i hovedsak ligger til bunn for de nye applikasjonene vi lager.
+Vi har arvet to applikasjoner som ikke er oppgradert enda, men det er en del av det vi må forholde oss
+til.
+
 ### Bygg og deploy
 Området bygger og tester all koden vår på [CircleCI] og deployer derfra. Vi
 drifter selvsagt all kode som vi skriver. Vi er på ingen måte låst til dette, for kodeflyter som
@@ -94,3 +98,5 @@ kanskje du kjenner noen andre som jobber hos oss?
 [NAIS]: https://nais.io/
 [Spring Boot]: https://spring.io/projects/spring-boot
 [NAVs designsystem]: https://design.nav.no/
+[NAV løser IT-flokene]: https://memu.no/video/slik-loser-nav-it-floken/
+[Postgresql]: https://www.postgresql.org
