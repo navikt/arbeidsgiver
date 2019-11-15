@@ -102,13 +102,11 @@ amplitude.getInstance().init('d5340a66c4e94af361f2491ba745d5b9', '', {
   },
 });
 $(function() {
-  $('a').each(function() {
-    $(this).click(function(event) {
+  $('a').click(function() {
       amplitude.getInstance().logEvent('user-clicked-link', {
         'url': window.location.href,
-        'href': event.target.href,
+        'href': $(this).attr("href"),
       });
-    });
   });
 
   $('iframe').each(function() {
