@@ -1,34 +1,29 @@
 const fs = require('fs');
-const filename = process.env.HOME + '/.netrc';
-const content = fs.readFileSync(filename, 'utf8');
-const accessToken = content.split(' ')[3];
+const os = require('os');
+const octokit = require("./src/octokit");
 
-const Octokit = require('@octokit/rest');
-const octokit = new Octokit({
-  auth: accessToken.trim(),
-});
-
-const run = async (teamSlug) => {
+const run = async (org, teamSlug) => {
   const countLanguages = [];
   try {
     const team = await octokit.teams.getByName({
-      org: 'navikt',
+      org: org,
       team_slug: teamSlug,
     });
     const repos = await octokit.teams.listRepos({
       team_id: team.data.id,
     });
+    const lines = []
     repos.data.forEach(repo => {
       const {html_url, description, private, size, language} = repo;
       if (!private) {
-        console.log('* [' + repo.name + '](' + html_url + ')');
-        //console.log(html_url,description, size, language);
+        lines.push('* [' + repo.name + '](' + html_url + ') - ' + language);
       }
     });
+    fs.writeFileSync('./docs/_includes/generated-repos.md', lines.join(os.EOL));
   } catch (e) {
     console.error(e);
   }
 
 };
 
-run('teamtag');
+run('navikt','teamtag');

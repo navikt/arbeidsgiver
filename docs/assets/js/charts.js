@@ -3,10 +3,10 @@ google.charts.setOnLoadCallback(drawCharts);
 
 function drawCharts() {
   createChart('Rolle', [
+    ['Støtteapparat', 8],
     ['Designere', 3],
-    ['Fagpersoner', 5],
+    ['Domeneeksperter', 6],
     ['Produkteiere', 4],
-    ['Support', 9],
     ['Utviklere', 21],
   ]);
 }
