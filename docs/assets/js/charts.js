@@ -62,3 +62,5 @@ function createPieChart(elementId, title, rows) {
     console.error('Couldnt find element with Id: ' + elementId);
   }
 }
+
+
