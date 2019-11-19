@@ -3,48 +3,53 @@ title: Område Arbeidgiver i NAV
 vimeoId: 373391229
 ---
 {% include header-scripts.html %}
-I NAV er vi for tiden fokusert på å bygge [det som betyr noe]. Moderniseringen av velferdsstaten går
-i en rivende fart. Vi flytter stadig vekk store deler av tjenestene våre ut av legacy og 
-over i en moderne smidig organisasjon. Innefor tjenester til arbeidsgivere har vi mange muligheter på
-å bygge nye tjenester rundt prosessene der det ikke eksisterer noe i dag. Selvbetjening både for 
-kandidater og arbeidsgivere gir mange nye muligheter.
 
-{% include vimeo-player.html id=page.vimeoId %}
+## Nav Norges mest attraktive IT-miljø?
+Nav har har gått fra å være kjent for sine store IT-fiaskoer til å å bli "the happening place" i Norsk IT-bransje. Faktisk er Nav IT interessante i verdenssammenheng. Hvorfor tør vi bruke så store ord om oss selv?
+1) Moderne organisering (smidig, produktteam istedenfor prosjekter, in-house utviklere)
+2) Moderne teknologi (Docker+Kubernetes, mikrotjenester, hendelsesdrevet)
+3) Vi har mye data om Norges befolkning _og_ har lov til å bruke dem
+4) Når vi lykkes får mange mennesker bedre liv
+5) Verdensledende: Gitt Norges gode utgangspunkt vil et enda bedre Nav gi verdens beste velferdsstat. 
 
-## Team og organisering
-Området er akkurat nå fordelt på fire autonome produktteam som har ansvaret for sine deler av flatene
-mot arbeidsgiver.
+Se hvordan IT-utviklingen i NAV har beveget seg fra tungrodde og kostbare IT-systemer til smidige løsninger: https://memu.no/video/slik-loser-nav-it-floken/
+
+Moderniseringen av velferdsstaten går i en rivende fart. Bli med på å bygge [det som betyr noe].
+
+
+## Produktområdet "Arbeidsgiver"
+Vi skal koble folk som vil jobbe sammen med arbeidsgivere som vil ta dem imot. Noen arbeidstakere har behov for tilrettelegging, og noen arbeidsgivere kan tilby tilrettelegging. Vi har mange muligheter til å bygge nye tjenester rundt prosessene der det ikke eksisterer noe i dag.
+
+Området er relativt nytt: Arbeidet startet opp i august 2018 som et tradisjonelt prosjekt, men siden Nav nå skal slutte med IT-prosjekter vil vi gå inn som en permanent del av strukturen i NAV fra 2020. Området er per november 2019 fordelt på fire autonome produktteam som har ansvaret for sine deler av flatene mot arbeidsgiver:
 
 * Inkluderende Arbeidsliv
 * Rekruttering av personer med nedsatt funksjonsevne
 * Innloggede sider for Arbeidsgivere
 * Tiltaksgjennomføring
 
-Organisasjonen er ikke spesielt gammel. Arbeidet ble startet på i august 2018 som et tradisjonelt prosjekt.
-Men vil gå inn som en permanent del av strukturen i NAV fra 2020. Og blir en viktig del av hvordan 
-[NAV løser IT-flokene] i fremtiden.
 
-### Hvem jobber i teamene?
+### Hvem er vi?
+{% include vimeo-player.html id=page.vimeoId %}
+
 Teamene har en tverrfaglig sammensetning med av domeneeksperter, designere, utviklere og produkteiere.
-Rundt teamene har vi ett støtteapparat som sørger økonomi, kommunikasjon og andre funksjoner for å 
+Rundt teamene har vi ett støtteapparat som sørger for økonomi, kommunikasjon og andre funksjoner for å 
 supportere produktteamene.
 
 <div id="chart-roller"></div>
 
-Vi er nogen lunde balansert på ulike demografiske faktorer, og har naturlig blitt en god blanding av
-folk med forskjellig bakgrunn, alder og kjønn.
+Vi er en god blanding av folk med forskjellig bakgrunn, alder og kjønn.
 
 <div id="chart-kjonn2"></div>
 
 Vi har en blanding av innleide konsulenter og NAV-ansatte. Av de 21 utviklerne våre, er 6 in-house, og det 
 blir stadig vekk flere. Vi rekrutterer i disse dager flere utviklere direkte til området og håper å finne 
-flere som ønsker å jobbe for at velferdsstaten får eierskap i egne applikasjoner og systemer.
+flere som ønsker å jobbe for at velferdsstaten får eierskap til egne applikasjoner og systemer.
 
 ### Kontorlokaler
-Vi er plassert i de gamle lokalene til Opera Software i [Waldemar Thranes gate 98].
+Vi er plassert i [de gamle lokalene til Opera Software og Trolltech] i [Waldemar Thranes gate 98].
 Her disponerer vi ca. 120 kvm og sitter godt skjermet i en egen fløy i 5 etg. Vi har en mix
 av åpne landskap og stillerom. I August 2020 flytter vi sammen med resten av Direktoratet 
-til nye lokaler på [Fyrstikkalléen 1 på Helsfyr], noe som blir bra.
+til nye lokaler på [Fyrstikkalléen 1 på Helsfyr], noe som blir bra.  TODO: VET VI AT VI SKAL FLYTTE? NOEN SKAL GLI IGJEN I S2.
 
 ## Utvikleropplevelse
 Utviklere kan velge mellom å PC og Mac, og har friheten til å bruke de verktøyene de liker best til 
@@ -113,4 +118,6 @@ kanskje du kjenner noen andre som jobber hos oss?
 [Tina]: mailto:tina.krekke@nav.no
 [TypeScript]: https://www.typescriptlang.org/
 [Visual Studio Code]: https://code.visualstudio.com/
+[de gamle lokalene til Opera Software og Trolltech]: https://www.digi.no/artikler/opera-og-trolltech-hedret-med-historisk-blatt-skilt-her-hadde-vi-noen-av-de-beste-arene-i-vare-liv/476625
 [Waldemar Thranes gate 98]: https://goo.gl/maps/fipkD2fDP4yV53vX7
+
