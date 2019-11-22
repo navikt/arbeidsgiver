@@ -3,73 +3,69 @@ title: Område Arbeidgiver i NAV
 vimeoId: 373391229
 ---
 {% include header-scripts.html %}
-I NAV er vi for tiden fokusert på å bygge [det som betyr noe]. Moderniseringen av velferdsstaten går
-i en rivende fart. Vi flytter stadig vekk store deler av tjenestene våre ut av legacy og 
-over i en moderne smidig organisasjon. Innefor tjenester til arbeidsgivere har vi mange muligheter på
-å bygge nye tjenester rundt prosessene der det ikke eksisterer noe i dag. Selvbetjening både for 
-kandidater og arbeidsgivere gir mange nye muligheter.
 
-{% include vimeo-player.html id=page.vimeoId %}
+## Nav har blitt et av Norges mest attraktive IT-miljøer
+Nav har har gått fra å være kjent for sine store IT-fiaskoer til å å bli "the happening place" i Norsk IT-bransje på grunn den kursen vi har satt for vår bruk av IT. Faktisk er Nav IT interessante i verdenssammenheng. Nav har et enormt potensiale på grunn av:
+1) Moderne organisering (smidig, produktteam istedenfor prosjekter)
+2) Moderne teknologi (kontinnuerlig deployment med Docker + Kubernetes, mikrotjenester, hendelsesdrevet)
+3) Vi har mye data om Norges befolkning _og_ har lov til å bruke dem
+4) Når vi lykkes får mange mennesker bedre liv
+5) Gitt Norges gode utgangspunkt vil et bedre Nav gi verdens beste velferdsstat. 
 
-## Team og organisering
-Området er akkurat nå fordelt på fire autonome produktteam som har ansvaret for sine deler av flatene
-mot arbeidsgiver.
+Se hvordan IT-utviklingen i NAV har satt kursen i retning fra tungrodde og kostbare IT-systemer til smidige løsninger: https://memu.no/video/slik-loser-nav-it-floken/
+
+
+## Produktområdet "Arbeidsgiver"
+Vi har skal koble folk som vil jobbe sammen med arbeidsgivere som vil ta dem imot. Noen arbeidstakere har behov for tilrettelegging, og noen arbeidsgivere kan tilby tilrettelegging. Vi har mange muligheter til å bygge nye tjenester for arbeidsgiverene, fordi mye gjøres manuelt per i dag.
+
+Området er relativt nytt: Arbeidet startet opp i august 2018 som et tradisjonelt prosjekt, men siden Nav nå skal slutte med IT-prosjekter vil vi gå inn som en permanent del av strukturen i NAV fra 2020. Området er per november 2019 fordelt på fire autonome produktteam som har ansvaret for sine deler av flatene mot arbeidsgiver:
 
 * Inkluderende Arbeidsliv
 * Rekruttering av personer med nedsatt funksjonsevne
 * Innloggede sider for Arbeidsgivere
 * Tiltaksgjennomføring
 
-Organisasjonen er ikke spesielt gammel. Arbeidet ble startet på i august 2018 som et tradisjonelt prosjekt.
-Men vil gå inn som en permanent del av strukturen i NAV fra 2020. Og blir en viktig del av hvordan 
-[NAV løser IT-flokene] i fremtiden.
 
-### Hvem jobber i teamene?
+### Hvem er vi?
+{% include vimeo-player.html id=page.vimeoId %}
+
 Teamene har en tverrfaglig sammensetning med av domeneeksperter, designere, utviklere og produkteiere.
-Rundt teamene har vi ett støtteapparat som sørger økonomi, kommunikasjon og andre funksjoner for å 
+Rundt teamene har vi ett støtteapparat som sørger for økonomi, kommunikasjon og andre funksjoner for å 
 supportere produktteamene.
 
 <div id="chart-roller"></div>
 
-Vi er nogen lunde balansert på ulike demografiske faktorer, og har naturlig blitt en god blanding av
-folk med forskjellig bakgrunn, alder og kjønn.
+Vi er en god blanding av folk med forskjellig bakgrunn, alder og kjønn.
 
 <div id="chart-kjonn2"></div>
 
 Vi har en blanding av innleide konsulenter og NAV-ansatte. Av de 21 utviklerne våre, er 6 in-house, og det 
 blir stadig vekk flere. Vi rekrutterer i disse dager flere utviklere direkte til området og håper å finne 
-flere som ønsker å jobbe for at velferdsstaten får eierskap i egne applikasjoner og systemer.
+flere som ønsker å jobbe for at velferdsstaten får eierskap til egne applikasjoner og systemer.
 
 ### Kontorlokaler
-Vi er plassert i de gamle lokalene til Opera Software i [Waldemar Thranes gate 98].
+Vi er plassert i [de gamle lokalene til Opera Software og Trolltech] i [Waldemar Thranes gate 98].
 Her disponerer vi ca. 120 kvm og sitter godt skjermet i en egen fløy i 5 etg. Vi har en mix
 av åpne landskap og stillerom. I August 2020 flytter vi sammen med resten av Direktoratet 
-til nye lokaler på [Fyrstikkalléen 1 på Helsfyr], noe som blir bra.
+til nye lokaler på [Fyrstikkalléen 1 på Helsfyr], noe som blir bra.  TODO: VET VI AT AKKURAT VI SKAL FLYTTE? NOEN SKAL GLI IGJEN I S2.
 
 ## Utvikleropplevelse
-Utviklere kan velge mellom å PC og Mac, og har friheten til å bruke de verktøyene de liker best til 
+Utvikleropplevelse har fokus, noe som gjenspeiler at Nav satser på IT i betydningen at in-house IT-utvikling er helt essensielt for de endrignene som Nav skal gjennom de neste åra.
+
+### Lokalt utviklingsmiljø
+Utviklere kan velge mellom Windows og Mac på laptop, og har friheten til å bruke de lokale verktøyene de liker best til 
 utvikling. Enten det måtte være [Visual Studio Code], [IntelliJ] eller [Eclipse]. Det jobbes også med 
-muligheten til å utvikler på maskiner som kjører linux, men vi har det ikke helt klart enda. Generelt
-er utvikleropplevelse sentralt for alt vi gjør.
+muligheten til å utvikle på maskiner som kjører Linux, men det er ikke klart enda.
 
 ### Kildekode
-I NAV [koder vi som default åpent] det er unntaksvis at man lukker repositories basert på en vurdering
-av teamet selv. I området arbeidsgiver har vi følgende åpne repositories:
+Ny programkode i Nav er som default [open source] og ligger på Github. Lukkede repositories brukes bare unntaksvis, basert på en vurdering av teamet selv. I området Arbeidsgiver har vi følgende åpne repositories:
 
 {% include generated-repos.md %}
 
-Det er verdt å merke seg at domenespråket vårt er norsk. Dette gjelder kode som omhandler lover og regler.
-Grunnen til dette er at kildekoden vi skriver skal kunne sees i sammenheng med lover og regler. For 
-applikasjoner som ikke har mye domenelogikk er språk valgfritt. Med første øyekast kan det se litt rart ut
-med kildekode med norske begreper, men man blir fort vant til det.
+Vi bruker norsk i programkode for termer fra problemdomenet vårt. Grunnen til dette er at kildekoden vi skriver skal kunne sees i sammenheng med lover og regler. For applikasjoner som ikke har mye domenelogikk er språk valgfritt. Ved første øyekast kan det se litt rart ut med kildekode med norske begreper blandet med engelsk, men man blir fort vant til det.
 
 ### Programmeringsspråk
-Vi skriver all frontend-code i [React] og fortrinnsvis med [TypeScript]. På backend er det kotlin
-og java som dominerer og [Spring Boot] der det er naturlig. Vi ønsker også å bruke lettere løsninger
-på dette, det er det egentlig opp til teamene å avgjøre. Infrastrukturen er fleksibel og vi har stor
-frihet til å velge det som er best for å få løst oppgaven. Det er likevel viktig at teamene i NAV
-ikke glir for langt fra hverandre, derfor er det noen føringer på hovedtrekk av teknologi. Vi har også
-ting som [NAVs designsystem] som skal hjelpe oss til å ikke sprike for mye mellom teamene.
+Vi skriver all frontend-code i [React] og fortrinnsvis med [TypeScript]. På backend har Nav hittil brukt Java med Spring ([Spring Boot]), men nå er det god stemning for å prøve Kotlin istedenfor. Vi ønsker også å bruke lettvektsløsninger, men det er det opp til teamene å avgjøre. Infrastrukturen er fleksibel og vi har stor frihet til å velge det som er best for å få løst oppgaven. Det er likevel viktig at teamene i NAV ikke glir for langt fra hverandre, derfor er det noen føringer på hovedtrekk av teknologi. Vi har også ting som [NAVs designsystem] som skal hjelpe oss til å ikke sprike for mye mellom teamene.
 
 For datalagring har vi [Postgresql] som i hovedsak ligger til bunn for de nye applikasjonene vi lager.
 Vi har arvet to applikasjoner som ikke er oppgradert enda, men det er en del av det vi må forholde oss
@@ -79,18 +75,18 @@ til å dekoble applikasjonene våre når det er naturlig. Dette er spesielt fint
 på tvers av produkter i NAV.
 
 ### Bygg og deploy
-Området bygger og tester all koden vår på [CircleCI] og deployer derfra. Vi
-drifter selvsagt all kode som vi skriver. Vi er på ingen måte låst til dette. For kodeflyter som
-ligger tett inn på Github er [Github Actions] ett godt alternativ som vi kan ta i bruk om det
-skulle bli relevant. 
+Vi deployer kontinuerlig. Teamet drifter all kode som vi skriver.
 
-Applikasjonene våre deployes til [NAIS] som er NAVs plattform for å kjøre kontainere med 
+Applikasjonene våre deployes til [NAIS] som er NAVs plattform for å kjøre Docker-kontainere med 
 [Kubernetes]. Her har vi tilgang til en moderne stack med monitoreringsverktøy og debuggingverktøy.
 Ganske behagelig egentlig. 😃
 
+Vi bygger koden vår på [CircleCI] (på internet as-a-service) og deployer derfra. Vi er ikke låst til dette. [Github Actions] er et alternativ kan bli aktuelt. 
+
+
 ## Kontakt
 Hvis du lurer på noe ang. området arbeidsgiver ta gjerne kontakt med [Hafsa] eller [Tina]. Eller 
-kanskje du kjenner noen andre som jobber hos oss?
+kanskje du kjenner noen andre som jobber hos oss? Moderniseringen av velferdsstaten går i en rivende fart. Bli med på å bygge [det som betyr noe].
 
 {% include generated-members.md %}
 
@@ -102,7 +98,7 @@ kanskje du kjenner noen andre som jobber hos oss?
 [Hafsa]: mailto:hafsa.elkam@nav.no
 [IntelliJ]: https://www.jetbrains.com/idea/
 [Kafka]: https://kafka.apache.org/
-[koder vi som default åpent]: https://github.com/navikt/offentlig/blob/master/OpenSource.md
+[open source]: https://github.com/navikt/offentlig/blob/master/OpenSource.md
 [Kubernetes]: https://kubernetes.io/
 [NAIS]: https://nais.io/
 [NAV løser IT-flokene]: https://memu.no/video/slik-loser-nav-it-floken/
@@ -113,4 +109,6 @@ kanskje du kjenner noen andre som jobber hos oss?
 [Tina]: mailto:tina.krekke@nav.no
 [TypeScript]: https://www.typescriptlang.org/
 [Visual Studio Code]: https://code.visualstudio.com/
+[de gamle lokalene til Opera Software og Trolltech]: https://www.digi.no/artikler/opera-og-trolltech-hedret-med-historisk-blatt-skilt-her-hadde-vi-noen-av-de-beste-arene-i-vare-liv/476625
 [Waldemar Thranes gate 98]: https://goo.gl/maps/fipkD2fDP4yV53vX7
+
