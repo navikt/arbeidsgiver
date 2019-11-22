@@ -10,15 +10,17 @@ Noen arbeidstakere har behov for tilrettelegging, og noen arbeidsgivere kan tilb
 tilrettelegging. Vi har mange muligheter til å bygge nye tjenester for arbeidsgiverene, 
 fordi mye gjøres manuelt per i dag.
 
-Området er relativt nytt: Arbeidet startet opp i august 2018 som et tradisjonelt prosjekt, 
-men siden Nav nå skal slutte med IT-prosjekter vil vi gå inn som en permanent del av strukturen 
-i Nav fra 2020. Området er per november 2019 fordelt på fire autonome produktteam som har ansvaret 
-for sine deler av flatene mot arbeidsgiver:
+Området er fordelt på fire autonome produktteam som har ansvaret for sine 
+deler av flatene mot arbeidsgiver:
 
 * Inkluderende Arbeidsliv
 * Rekruttering av personer med nedsatt funksjonsevne
 * Innloggede sider for Arbeidsgivere
 * Tiltaksgjennomføring
+
+Arbeidet ble startet i august 2018 som et tradisjonelt prosjekt. Men vil 
+gå inn som en permanent del av strukturen i NAV fra januar 2020. Og blir 
+en viktig del av hvordan NAVs digitalisering i fremtiden.
 
 ### Organisasjonen blir stadig smidigere
 Nav har har gått fra å være kjent for sine store IT-fiaskoer til å bli 
@@ -48,13 +50,14 @@ Vi er en god blanding av folk med forskjellig bakgrunn, alder og kjønn.
 
 Vi har en blanding av innleide konsulenter og NAV-ansatte. Av de 21 utviklerne våre, er 6 in-house, og det 
 blir stadig vekk flere. Vi rekrutterer i disse dager flere utviklere direkte til området og håper å finne 
-flere som ønsker å jobbe for at velferdsstaten får eierskap til egne applikasjoner og systemer.
+flere som ønsker å jobbe for at NAV får eierskap i egne applikasjoner og systemer.
 
 ### Kontorlokaler
-Vi er plassert i [de gamle lokalene til Opera Software og Trolltech] i [Waldemar Thranes gate 98].
-Her disponerer vi ca. 120 kvm og sitter godt skjermet i en egen fløy i 5 etg. Vi har en mix
-av åpne landskap og stillerom. I August 2020 flytter vi sammen med resten av Direktoratet 
-til nye lokaler på [Fyrstikkalléen 1 på Helsfyr]. 
+Vi er plassert i [de gamle lokalene til Opera Software og Trolltech] i 
+[Waldemar Thranes gate 98]. Her disponerer vi ca. 120 kvm og sitter godt 
+skjermet i en egen fløy i 5 etg. Vi har en mix av åpne landskap og stillerom. 
+I August 2020 flytter vi sammen med resten av Direktoratet til splitter 
+nye og moderne lokaler på [Fyrstikkalléen 1 på Helsfyr]. 
 
 ## Utvikleropplevelse
 Utvikleropplevelse har fokus, noe som gjenspeiler at Nav satser på IT i betydningen at in-house IT-utvikling 
@@ -68,7 +71,7 @@ en fullgod opplevelse også her.
 
 ### Kildekode
 Ny programkode i Nav er som default [open source] og ligger på Github. Lukkede repositories brukes bare 
-unntaksvis, basert på en vurdering av teamet selv. I området Arbeidsgiver har vi følgende åpne repositories:
+unntaksvis, basert på en vurdering av teamet selv. I området har vi følgende åpne repositories:
 
 {% include generated-repos.md %}
 
