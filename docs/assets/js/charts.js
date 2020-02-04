@@ -3,19 +3,19 @@ google.charts.setOnLoadCallback(drawCharts);
 
 function drawCharts() {
   createPieChart('chart-roller', 'Roller', [
-    ['Støtteapparat', 8],
-    ['Designere', 3],
-    ['Domeneeksperter', 6],
-    ['Produkteiere', 4],
+    ['Støtteapparat', 6],
+    ['Designere', 5],
+    ['Domeneeksperter', 5],
+    ['Produkteiere', 5],
     ['Utviklere', 21],
   ]);
 
   createStackedLineChart('chart-kjonn2', [
     ['Kjønnsbalanse', 'Kvinner', 'Menn', {role: 'annotation'}],
-    ['Støtteapparat', 4, 4, ''],
-    ['Designere', 1, 2, ''],
-    ['Domeneeksperter', 3, 3, ''],
-    ['Produkteiere', 4, 0, ''],
+    ['Støtteapparat', 3, 3, ''],
+    ['Designere', 3, 2, ''],
+    ['Domeneeksperter', 2, 3, ''],
+    ['Produkteiere', 3, 2, ''],
     ['Utviklere', 3, 18, ''],
   ]);
 }
