@@ -22,4 +22,4 @@ const run = async (org, teamSlug) => {
 
 };
 
-run('navikt', 'teamtag');
+run('navikt', 'arbeidsgiver');
