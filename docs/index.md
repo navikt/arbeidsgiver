@@ -1,10 +1,10 @@
 ---
-title: Produktområde arbeidgiver i Nav
+title: Produktområde arbeidsgiver i Nav
 vimeoId: 373391229
 ---
 {% include header-scripts.html %}
 
-## Produktområde arbeidgiver i Nav
+## Produktområde arbeidsgiver i Nav
 Området er fordelt på fem autonome produktteam som har ansvaret for sine
 deler av flatene mot arbeidsgiver:
 
