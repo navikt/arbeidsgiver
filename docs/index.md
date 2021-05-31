@@ -52,7 +52,7 @@ Utvikleropplevelse har fokus, noe som gjenspeiler at Nav satser på IT i betydni
 er helt essensielt for de endringene som Nav skal gjennom de neste åra.
 
 ### Lokalt utviklingsmiljø
-Utviklere kan velge mellom Windows og Mac på laptop, og har friheten til å bruke de lokale verktøyene de liker best til utvikling, enten det måtte være [Visual Studio Code], [IntelliJ], [Eclipse] eller annet. Det jobbes også med å forbedre opplevelsen for de som ønsker å utvikle på Linux -- her har vi foreløpig en åpen beta for de som ønsker å prøve dét.
+Utviklere kan velge mellom Windows, Mac eller Linux på laptop, og har friheten til å bruke de lokale verktøyene de liker best til utvikling, enten det måtte være [Visual Studio Code], [IntelliJ], [Eclipse] eller annet.
 
 ### Kildekode
 Ny programkode i Nav er som default [open source] og ligger på Github. Lukkede repositories brukes bare
