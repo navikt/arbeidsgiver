@@ -5,7 +5,7 @@ vimeoId: 373391229
 {% include header-scripts.html %}
 
 ## Produktområde arbeidsgiver i Nav
-Området er fordelt på åtte autonome produktteam som har ansvaret for sine deler av flatene mot arbeidsgiver samt et støtte team som skal bistå på tvers av NAV :
+Området er fordelt på ni autonome produktteam som har ansvaret for sine deler av flatene mot arbeidsgiver samt et støtte team som skal bistå på tvers av NAV :
 
 * Team Pia - Inkluderende Arbeidsliv 
 * Team lønnskompensasjon 
