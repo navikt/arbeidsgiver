@@ -15,6 +15,7 @@ Området er fordelt på åtte autonome produktteam som har ansvaret for sine del
 * Permittering og nedbemanning 
 * Fellestjenester for Arbeidsgiver (FAGER) 
 * Team IA – Inkluderende arbeidsliv  
+* Team Innhold og Dialog
 
 Arbeidet ble startet i august 2018 som et tradisjonelt prosjekt. Men har fra januar 2020 vært en permanent del av den nye produktområdestrukturen i Nav. Området er en viktig del av Navs satsing på digitalisering.
 
