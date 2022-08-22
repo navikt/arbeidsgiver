@@ -83,6 +83,11 @@ team i Nav. For asynkrone operasjoner har vi også en sentral [Kafka]-rigg som g
 til å dekoble applikasjonene våre når det er naturlig. Dette er spesielt fint når vi skal kommunisere
 på tvers av produkter i Nav.
 
+Som kunderelasjonshåndtering(CRM)-system, ut mot arbeidsgiverne, benytter vi oss av hyllevaren Salesforce.
+Salesforce gir oss mye nyttig og gjenbrukbar standard-funksjonalitet. I tillegg står de for data-lagringen. 
+For videreutvikling (backend) på plattformen benyttes Salesforce sitt egenutviklede programmeringsspråk, 
+Apex (Java-basert). For frontend utvikler vi komponenter bestående av JavaScript, Html, Css og Xml.
+
 ### Bygg og deploy
 Vi deployer kontinuerlig. Teamet drifter all kode som vi skriver.
 
