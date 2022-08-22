@@ -1,23 +1,23 @@
 ---
-title: Produktområde arbeidsgiver i Nav
+title: Produktområde arbeidsgiver i NAV
 vimeoId: 373391229
 ---
 {% include header-scripts.html %}
 
-## Produktområde arbeidsgiver i Nav
+## Produktområde arbeidsgiver i NAV
 Området er fordelt på ni autonome produktteam som har ansvaret for sine deler av flatene mot arbeidsgiver samt et støtte team som skal bistå på tvers av NAV :
 
 * Team Pia - Inkluderende Arbeidsliv 
 * Team lønnskompensasjon 
 * Team automatisering og innsikt (AI) 
-* POGA – Støtteteam 
+* Støtteteam 
 * Team tiltak og inkludering (TOI)  
 * Permittering og nedbemanning 
 * Fellestjenester for Arbeidsgiver (FAGER) 
 * Team IA – Inkluderende arbeidsliv  
 * Team Innhold og Dialog
 
-Arbeidet ble startet i august 2018 som et tradisjonelt prosjekt. Men har fra januar 2020 vært en permanent del av den nye produktområdestrukturen i Nav. Området er en viktig del av Navs satsing på digitalisering.
+Arbeidet ble startet i august 2018 som et tradisjonelt prosjekt. Men har fra januar 2020 vært en permanent del av den nye produktområdestrukturen i NAV. Området er en viktig del av NAVs satsing på digitalisering.
 
 ### Organisasjonen blir stadig smidigere
 Nav har gått fra å være kjent for sine store IT-fiaskoer til å bli
@@ -41,9 +41,10 @@ Vi er en god blanding av folk med forskjellig bakgrunn, alder og kjønn.
 
 <div id="chart-kjonn2"></div>
 
-Vi har en blanding av innleide konsulenter og Nav-ansatte. Av de 32 utviklerne våre, er 18 in-house, og det
+Vi har en blanding av innleide konsulenter og NAV-ansatte. Av de 32 utviklerne våre, er 18 in-house, og det
 blir stadig flere. Vi rekrutterer i disse dager utviklere direkte til området og håper å finne
-flere som ønsker å jobbe for at Nav får eierskap i egne applikasjoner og systemer.
+flere som ønsker å jobbe for at NAV får eierskap i egne applikasjoner og systemer.  
+https://www.nav.no/no/nav-og-samfunn/om-nav/sok-jobb-i-nav
 
 ### Kontorlokaler
 Vi er plassert i de splitter nye og moderne lokalene til Arbeids- og velferdsdirektoratet som ligger i Fyrstikkaléen 1 på Helsfyr.
