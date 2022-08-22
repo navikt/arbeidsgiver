@@ -44,7 +44,7 @@ Vi er en god blanding av folk med forskjellig bakgrunn, alder og kjønn.
 Vi har en blanding av innleide konsulenter og NAV-ansatte. Av de 32 utviklerne våre, er 18 in-house, og det
 blir stadig flere. Vi rekrutterer i disse dager utviklere direkte til området og håper å finne
 flere som ønsker å jobbe for at NAV får eierskap i egne applikasjoner og systemer.  
-https://www.nav.no/no/nav-og-samfunn/om-nav/sok-jobb-i-nav
+[Ledige stillinger]
 
 ### Kontorlokaler
 Vi er plassert i de splitter nye og moderne lokalene til Arbeids- og velferdsdirektoratet som ligger i Fyrstikkaléen 1 på Helsfyr.
@@ -118,3 +118,4 @@ jobber hver dag for å bygge [det som betyr noe].
 [Spring Boot]: https://spring.io/projects/spring-boot
 [TypeScript]: https://www.typescriptlang.org/
 [Visual Studio Code]: https://code.visualstudio.com/
+[Ledige stillinger]: https://arbeidsplassen.nav.no/stillinger?q=NAVstilling
